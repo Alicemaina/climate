@@ -6,6 +6,7 @@
 }
 
 body {
+    width: 100%;
 	font-family: 'Roboto', 'Avenir Next', sans-serif;
 	color: #fff;
 	background: #333;
@@ -14,7 +15,6 @@ body {
 }
 
 /* Buttons */
-
 .btn {
 	display: inline-block;
 	cursor: pointer;
@@ -41,7 +41,6 @@ body {
 .btn:hover {
 	background: rgba(251, 224, 148, 1);
 }
-
 .btn--trigger {
 	width: 15em;
 	position: absolute;
@@ -49,7 +48,6 @@ body {
 	left: 50%;
 	margin: 0 0 0 -7.5em;
 }
-
 .btn--hidden {
 	opacity: 0;
 	pointer-events: none;
@@ -106,8 +104,6 @@ a:focus {
 	height: 0;
 	pointer-events: none;
 }
-
-
 /* Icons */
 
 .icon {
@@ -117,7 +113,6 @@ a:focus {
 	margin: 0 auto;
 	fill: currentColor;
 }
-
 /* Header */
 
 .codrops-header {
@@ -140,7 +135,6 @@ a:focus {
 	padding: 0.8em 0.75em;
 	text-align: left;
 }
-
 .codrops-header__title {
 	font-size: 1em;
 	margin: 0;
@@ -152,7 +146,6 @@ a:focus {
 	padding: 0 1em;
 	font-size: 20px;
 }
-
 
 /* Bottom nav */
 
@@ -186,7 +179,6 @@ a:focus {
 .codrops-demos a.current-demo {
 	color: #fff;
 }
-
 .codrops-demos a.current-demo::before {
 	content: '';
 	position: absolute;
@@ -198,8 +190,6 @@ a:focus {
 	left: 50%;
 	margin: -1.125em 0 0 -1.125em;
 }
-
-
 /* Top Navigation Style */
 
 .codrops-links {
@@ -245,7 +235,6 @@ a:focus {
 .github-corner:hover .octo-arm {
 	animation: octocat-wave 560ms ease-in-out;
 }
-
 @keyframes octocat-wave {
 	0%,
 	100% {
@@ -269,14 +258,11 @@ a:focus {
 		animation: octocat-wave 560ms ease-in-out;
 	}
 }
-
-
 /* Content */
 
 .content {
 	padding: 3em 0;
 }
-
 .trigger-headline {
 	top: 0;
 	left: 0;
@@ -297,11 +283,9 @@ a:focus {
 	margin: 0;
 	text-align: center;
 }
-
 .trigger-headline span {
 	display: inline-block;
 	position: relative;
-	padding: 0 5vw;
 	-webkit-transition: opacity 2s, -webkit-transform 2s;
 	transition: opacity 2s, transform 2s;
 	-webkit-transition-timing-function: cubic-bezier(0.2,1,0.3,1);
@@ -309,7 +293,6 @@ a:focus {
 	-webkit-transition-delay: 0.7s;
 	transition-delay: 0.7s;
 }
-
 .js .trigger-headline--hidden span {
 	pointer-events: none;
 	opacity: 0;
@@ -339,7 +322,6 @@ a:focus {
 	-webkit-transform: translate3d(50px,0,0);
 	transform: translate3d(50px,0,0);
 }
-
 .js .trigger-headline--hidden span:nth-child(6) {
 	-webkit-transform: translate3d(100px,0,0);
 	transform: translate3d(100px,0,0);
@@ -354,17 +336,14 @@ a:focus {
 	-webkit-transition-delay: 0.1s;
 	transition-delay: 0.1s;
 }
-
 .js .demo-4 .trigger-headline--hidden span:nth-child(1) {
 	-webkit-transform: translate3d(200px,0,0);
 	transform: translate3d(200px,0,0);
 }
-
 .js .demo-4 .trigger-headline--hidden span:nth-child(2) {
 	-webkit-transform: translate3d(100px,0,0);
 	transform: translate3d(100px,0,0);
 }
-
 .js .demo-4 .trigger-headline--hidden span:nth-child(3) {
 	-webkit-transform: translate3d(50px,0,0);
 	transform: translate3d(50px,0,0);
@@ -379,7 +358,6 @@ a:focus {
 	-webkit-transform: translate3d(-100px,0,0);
 	transform: translate3d(-100px,0,0);
 }
-
 .js .demo-4 .trigger-headline--hidden span:nth-child(6) {
 	-webkit-transform: translate3d(-200px,0,0);
 	transform: translate3d(-200px,0,0);
@@ -389,8 +367,6 @@ a:focus {
 	-webkit-transition-delay: 0s;
 	transition-delay: 0s;
 }
-
-
 /* Related demos */
 
 .content--related {
@@ -413,7 +389,6 @@ a:focus {
 	-webkit-transition: color 0.3s;
 	transition: color 0.3s;
 }
-
 .media-item__img {
 	max-width: 100%;
 	opacity: 0.6;
@@ -439,12 +414,6 @@ a:focus {
 	}
 }
 
-.inf{
-   padding-top: 0px;
-  
-}
-
-
 .pics p {
      float: right;
      width: 50%;
@@ -454,32 +423,21 @@ a:focus {
      font-family: 'PT Sans', sans-serif;
      font-size: 19px;
 }
-
 .pics img  {
 	width: 50%;
 	padding-left: 45px;
 	margin-top: 10px;
 }
-
 .pics {
 	background-color: white;
 }
-
 .signs {
 	height: 105px;
 	color: white;
 	text-align: center;
-	width: 120%;
-	margin-left: -130px;
 	font-size: 19px;
 	margin-bottom: 20px;
-	
 }
-
-.signs h3 {
-    padding-top: 25px;
-}
-
 .other1  {
 	
 	height:95px;
@@ -519,19 +477,18 @@ a:focus {
     width: 100%;
     height: auto;
 }
-
 .jumbotron {
 	color: black;
 }
 
-/*.images {
+.images {
 	width: 110%;
 	margin-left: -60px;
 	height: 20px;
 }
 .img1 {
 	margin-left: 20px;
-}*/
+}
 
 
 /*css for sidebar*/
@@ -757,4 +714,7 @@ ul.social-buttons li a:active {
 .evi1 {
 	margin-left: -70px;
 	margin-right: 50px;
+}
+#imgsl{
+	padding-left: 20%;
 }
